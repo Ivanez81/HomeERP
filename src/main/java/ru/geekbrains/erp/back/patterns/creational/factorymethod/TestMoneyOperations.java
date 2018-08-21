@@ -1,15 +1,15 @@
-package ru.geekbrains.erp.back.moneyOperations;
+package ru.geekbrains.erp.back.patterns.creational.factorymethod;
 
 public class TestMoneyOperations {
 
     private Money money;
 
     public void createBudget(final BudgetFactory budgetFactory) {
-        setMoneyType(budgetFactory.moveMoney());
+        setMoneyType(budgetFactory.createMoneyTransferDirection());
     }
 
     public Money getMoneyType(final BudgetFactory budgetFactory) {
-        return budgetFactory.moveMoney();
+        return budgetFactory.createMoneyTransferDirection();
     }
 
     public Money getMoneyType() {

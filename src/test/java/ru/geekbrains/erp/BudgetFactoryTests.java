@@ -2,7 +2,7 @@ package ru.geekbrains.erp;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.geekbrains.erp.back.moneyOperations.*;
+import ru.geekbrains.erp.back.patterns.creational.factorymethod.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class BudgetFactoryTests {

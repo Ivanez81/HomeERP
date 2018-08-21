@@ -1,4 +1,4 @@
-package ru.geekbrains.erp.back.moneyOperations;
+package ru.geekbrains.erp.back.patterns.creational.factorymethod;
 
 public class ExpenseMoney implements Money {
     @Override
