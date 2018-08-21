@@ -1,4 +1,4 @@
-package ru.geekbrains.erp.back.users;
+package ru.geekbrains.erp.back.patterns.structural.composite;
 
 public interface User {
     void setName(String name);

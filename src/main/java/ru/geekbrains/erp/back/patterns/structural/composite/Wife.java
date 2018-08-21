@@ -1,11 +1,11 @@
-package ru.geekbrains.erp.back.users;
+package ru.geekbrains.erp.back.patterns.structural.composite;
 
-public class Husband implements User {
+public class Wife implements User {
 
     private String name;
     private float salary;
 
-    public Husband(String name, float salary) {
+    public Wife(String name, float salary) {
         this.name = name;
         this.salary = salary;
     }
@@ -29,4 +29,5 @@ public class Husband implements User {
     public float getSalary() {
         return this.salary;
     }
+
 }
